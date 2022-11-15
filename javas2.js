@@ -1,0 +1,1 @@
+const getVowels = (str) => str ? str.toLowerCase().match(/[aeiou]/g).filter((el, index, self) => index===self.indexOf(el)).sort() : [];
