@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title>    
 </head>
 <body>
     <main>
@@ -14,6 +14,8 @@
                 <a href="html5.html">HTML5</a>
                 <a href="Javascript.html">Javascript</a>
                 <a href="Contacto.html">Contacto</a>
+                <a href="Ajax.html">Ejecicios AJAX</a>
+
         </ul>
         <h1>DATOS BASICOS DEL ESTUDIANTE</h1>
         <img src="Jose Leon.jpg"
@@ -34,24 +36,51 @@
         <ul>
             <li>Correo Electronico: jose.leon880508@gmail.com </li>
         </ul>
-        <textarea name="comentario">
-        function esPalindromo(texto){
-            return texto.split('').reverse().join('') == texto;      
-        }
-        console.log(esPalindromo("perro")); // false" </textarea></p>
+        <span>Validar Palindromo </span>
+        <input type="text" id="Palabra" placeholder="Ingresa Palabra">
+        <button id="boton"> validar </button>
+        <br>
+        <br>
+        <p id="Resultado">Resultado.....</p>
+        <br>
+        <br>
+        <span>Determinar Numero Mayor </span>
+        <br>
+        <br>
+        <span>Numero Uno </span>
+        <input type="number" id="Numero1" placeholder="Ingresa numero">
+        <br>
+        <br>
+        <span>Numero dos </span>
+        <input type="number" id="Numero2" placeholder="Ingresa numero">
+        <button id="boton2"> validar </button>
+        <p id="Resultado2">El numero Mayor es el.....</p>
+        <br>
+        <br>
+        <span>Extraer Vocales: Escribe una Frase </span>
+        <br>
+        <textarea name="comentario"  style="width : 300px; heigth : 300px" id="AreaTexto"></textarea>
+        <button id="boton3"> Extraer Vocales </button>
+        <p id="Resultado3">La frase o palabra escrita contiene las vocales.......</p>
+        <br>
+        <br>
+        
+        <span>Contar Vocales: Escribe una Frase </span>
+        <br>
+        <textarea name="comentario"  style="width : 300px; heigth : 300px" id="AreaTexto2"></textarea>
+        <button id="boton4"> Contar Vocales </button>
+        <p id="Resultado4">La frase o palabra escrita tiene.......</p>
+        <br>
+        <br>
 
-        <textarea name="comentario"></textarea></p>
-        <br>
-        <br>
+
         <footer>
             <p> Todos los derechos reservados @</p>
         </footer>
     </main>
-    <script
-        src="./javas.js,">
-    </script>
-    <script
-    src="./javas2.js,">
-</script>
+<script src="./javas.js"> </script>
+<script src="./javas2.js"> </script>
+<script src="./javas3.js"> </script>  
+<script src="./javas4.js"> </script> 
 </body>
 </html>
